@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import crypto from 'crypto';
+
+import Board from './components/Board';
+import Card from './components/Card';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { boards } from './data/boards';
 
-export default App;
+export default () => {
+    return (
+        <div className="Boards">
+            { boards.map(({ title, cards }, index) =>
+                <Board key={ index } title={ title }>
+                    { cards.map(({ status, text }, index) => 
+                        <Card 
+                            key={ index }
+                            id={ `card_${ crypto.randomBytes(10).toString('hex') }` } 
+                            status={ status } 
+                            text={ text }
+                        />
+                    )}
+                </Board>
+            )}
+        </div>
+    );
+}

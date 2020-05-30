@@ -1,0 +1,72 @@
+{
+    "boards":[
+        {
+            "title":"TO DO",
+            "cards":[
+                {
+                    "status":"green",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi. Sed convallis enim id lacus porta, ac placerat mi interdum."
+                },
+                {
+                    "status":"red",
+                    "text":"Duis congue condimentum gravida. Mauris rutrum nisl at nunc aliquet, fringilla posuere purus gravida. Phasellus et ornare ipsum. Donec in suscipit risus. Vivamus ultrices neque at mauris tincidunt, vitae sollicitudin erat luctus."
+                },
+                {
+                    "status":"blue",
+                    "text":"Morbi efficitur pharetra luctus. In rutrum malesuada tellus, at tristique massa bibendum quis."
+                },
+                {
+                    "status":"blue",
+                    "text":"Sed sagittis, neque at molestie lacinia, eros nulla venenatis quam, sit amet laoreet quam arcu quis libero."
+                }
+            ]
+        },
+        {
+            "title":"DOING",
+            "cards":[
+                {
+                    "status":"green",
+                    "text":"Maecenas posuere auctor sem sit amet varius. Aliquam semper nisi non elit dapibus laoreet."
+                },
+                {
+                    "status":"red",
+                    "text":"Donec condimentum eu eros at malesuada. Praesent id metus eget felis venenatis malesuada id ut dui."
+                },
+                {
+                    "status":"red",
+                    "text":"Vestibulum iaculis dui blandit nunc semper gravida eget in purus."
+                }
+            ]
+        },
+        {
+            "title":"TEST",
+            "cards":[
+                {
+                    "status":"red",
+                    "text":"Nunc placerat sollicitudin diam, et bibendum tellus malesuada et. Sed egestas quam eget sagittis suscipit."
+                },
+                {
+                    "status":"blue",
+                    "text":"Donec commodo egestas pharetra. Ut eget lacus sapien. Nullam condimentum tristique lacus at molestie. In auctor cursus lacus ut bibendum. Suspendisse potenti."
+                }
+            ]
+        },
+        {
+            "title":"DONE",
+            "cards":[
+                {
+                    "status":"green",
+                    "text":"Quisque sit amet urna non turpis blandit vulputate. Sed interdum massa at est gravida dictum. Aliquam erat volutpat. Praesent a ultricies tortor. Duis in lorem mi. Donec placerat pharetra diam non elementum."
+                },
+                {
+                    "status":"red",
+                    "text":"Donec varius, urna nec lobortis aliquam, elit ex facilisis quam, in tristique ligula quam eu sapien."
+                },
+                {
+                    "status":"blue",
+                    "text":"Cras pharetra efficitur dui, sit amet consequat nibh semper at."
+                }
+            ]
+        }
+    ]
+}

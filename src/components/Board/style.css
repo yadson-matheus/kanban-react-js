@@ -1,0 +1,27 @@
+.Board {
+    background-color: #141316;
+    border: 1px solid #FD951F11;
+    border-radius: 4px;
+    margin: 0 15px;
+}
+
+.Board.over {
+    background-color: #4CD13711;
+}
+
+.Board h3 {
+    padding: 15px;
+    margin: 0;
+    color: #FD951FCC;
+}
+
+.Board .dropzone {
+    padding: 15px;
+    min-width: 282px;
+    min-height: 200px;
+    transition: .4s;
+}
+
+.Board .dropzone.highlight {
+    background-color: #FD951F08;
+}
